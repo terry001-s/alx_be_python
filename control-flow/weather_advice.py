@@ -1,5 +1,5 @@
 weather = ["sunny","rainy","cold"]
-Question = input(f"What's the weather like today? (sunny/rainy/cold): ").lower()
+Question = input("What's the weather like today? (sunny/rainy/cold): ").lower()
 if Question == "sunny":
     print(" Wear a t-shirt and sunglasses.")
 elif Question == "rainy":
